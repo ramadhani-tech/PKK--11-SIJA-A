@@ -4,7 +4,7 @@
 void setup() {
   Serial.begin(9600); /* Define baud rate for serial communication */
   WiFiManager wifiManager;
-  wifiManager.autoConnect("AutoConnectAP");
+  wifiManager.autoConnect("GR-SERVER");
   Serial.println("Connected.");
 }
 
